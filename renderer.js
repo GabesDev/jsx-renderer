@@ -1,8 +1,3 @@
-# jsx-renderer
-
-JSX renderer for better understanding of how React works.
-
-```javascript
 /** @jsx jsxMaker */
 
 // ⬆️ Magic comment that tells the transpiler to inject calls to the `jsxMaker()` function for each node.
@@ -44,4 +39,3 @@ function render(virtualNode) {
 
 let dom = render(virtualDOM)
 document.body.appendChild(dom)
-```
